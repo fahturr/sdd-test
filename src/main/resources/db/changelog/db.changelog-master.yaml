@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - changeSet:
+      id: DDL-2023-12-12-0001
+      author: Fahtur Rahman Fauzi
+      comment: CREATE TABLE KARYAWAN_JABATAN
+      changes:
+        - sqlFile:
+            path: sql/create_table_member.sql
+            relativeToChangelogFile: true
